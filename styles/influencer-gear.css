@@ -1,0 +1,137 @@
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+/* share style */
+.primary-color{
+    color: rgba(58, 58, 58, 1);
+}
+.button{
+    font-weight: 700;
+    font-size: normal;
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border: none;
+}
+.section-width{
+    max-width: 1047px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* navbar style */
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width:1188px;
+    margin: 0 auto;
+    padding-top: 87px;
+}
+.nav-brand{
+    display: flex;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 34px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+}
+
+.nav-icon{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+/* banner style  */
+.banner{
+    max-width: 1188px; 
+    margin: 0 auto;
+    display: flex;
+    gap: 133px;
+    margin-top: 50px;
+}
+.banner-content{
+    max-width: 582px;   
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 52px;
+}
+/* banner-img style */
+.banner-bg{
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 96%;
+}
+.banner-img img{
+    max-width: 100%;
+    height: auto;
+}
+/* multi brand image style */
+.multi-brand-image{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+/* popular card related style */
+.popular-titel-primary{
+    text-align: center;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+}
+.popular-container{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 30px;
+}
+.card-style{
+    width: 329px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.popular-card{
+   
+}
+.popular-image img{
+    align-items: center;
+    width: 100%;
+    
+}
+.popular-image{
+    padding: 15px;
+}
+.popular-content{
+    padding: 15px;
+}
+/* popular-content related style */
+.popular-discription{
+    font-size: 14px;
+    color: gray;
+    max-width: 196px;
+}
+
+#see-more{
+    text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+    color: #E02C6D;
+}
