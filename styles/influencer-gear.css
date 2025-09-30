@@ -79,8 +79,13 @@ body{
 .banner-bg{
     background-image: url(/images/Circle\ design.svg);
     background-repeat: no-repeat;
-    background-position:center;
-    background-size: 96%;
+    background-position: center;
+    background-size: cover;
+    width: 475px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .banner-img img{
     max-width: 100%;
