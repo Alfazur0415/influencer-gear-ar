@@ -173,3 +173,56 @@ body{
     font-weight: 700;
     font-size: 14px;
 }
+
+/* mobile view banner section */
+@media screen and (max-width: 768px){
+    .banner{
+        flex-direction: column;
+    }
+    .banner-bg{
+        order: -1;
+        background-image: url(/images/Circle\ design.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-content{
+         max-width: 675px; 
+         text-align: center;
+    }
+    /* multi-brand-image */
+    .multi-brand-image{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .brand-name{
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    /* popular-collection section-width */
+    .popular-collection{
+
+    }
+    .popular-container{
+       display: block;
+       margin: 0 auto;
+    }
+    .card-style{
+        width: 329px;
+        margin: 0 auto;
+    }
+    /* featured-products-container */
+    .featured-products-container{
+        display: block; 
+    }
+    .featured-image img{
+        width: 100%;
+    }
+    .featured-content{
+        text-align: center;
+    }
+}
